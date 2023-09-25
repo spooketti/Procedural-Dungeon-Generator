@@ -28,6 +28,9 @@ html,body
 
 #sideNav img
 {
+    position: relative;
+    left:25%;
+    top:3%;
     --angle: 0deg;
     border: 6px dotted;
     border-image: conic-gradient(from var(--angle), rgb(255, 255, 255), rgb(182, 178, 181), rgb(133, 119, 132), rgb(69, 62, 69), rgb(47, 43, 47),rgb(255, 255, 255)) 1;
@@ -35,6 +38,12 @@ html,body
     animation: 3s rotate linear infinite;
 width:50%;
 height:auto;
+}
+
+#sideNav h1
+{
+  position: relative;
+  left:5%;
 }
 
 @keyframes rotate {
